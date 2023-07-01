@@ -1,0 +1,2 @@
+javac *.java
+jar cvfm JMinesweeper.jar manifest.txt *.class
