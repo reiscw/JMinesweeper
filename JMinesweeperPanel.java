@@ -390,7 +390,7 @@ public class JMinesweeperPanel extends JPanel {
 			difficulty = LARGE;
 		}
 		// set up the game
-		JFrame frame = new JFrame("JMinesweeper Version 1.0 by Christopher Reis");
+		JFrame frame = new JFrame("JMinesweeper Version 1.1 by Christopher Reis");
         frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(new JMinesweeperPanel(difficulty));
         frame.pack();
